@@ -6,10 +6,8 @@ export DEBIAN_FRONTEND=noninteractive
 apt update
 apt install -y live-build git wget
 
-# Clean old builds
 lb clean
 
-# Configure the ISO (minimal working flags)
 lb config \
   --distribution bookworm \
   --debian-installer live \
@@ -18,5 +16,4 @@ lb config \
   --iso-application "Debian Windows 2000 Clone" \
   --iso-publisher "Win2k Linux Project"
 
-# Build the ISO
 lb build
