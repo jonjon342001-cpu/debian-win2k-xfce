@@ -13,6 +13,7 @@ lb config \
   --archive-areas "main contrib non-free non-free-firmware" \
   --binary-images iso-hybrid \
   --iso-application "Debian Windows 2000 Clone" \
-  --iso-publisher "Win2k Linux Project"
+  --iso-publisher "Win2k Linux Project" \
+  --package-lists "minimal,win2k"
 
 lb build
