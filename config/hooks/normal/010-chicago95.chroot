@@ -1,0 +1,5 @@
+#!/bin/bash
+set -e
+git clone https://github.com/grassmunk/Chicago95.git /opt/Chicago95
+cd /opt/Chicago95
+./install.sh
