@@ -12,6 +12,8 @@ lb config \
   --mode debian \
   --distribution bookworm \
   --binary-images iso-hybrid \
+  --mirror-bootstrap http://deb.debian.org/debian \
+  --mirror-binary http://deb.debian.org/debian \
   --security false \
   --iso-application "Debian Windows 2000 Clone" \
   --iso-publisher "Win2k Linux Project"
