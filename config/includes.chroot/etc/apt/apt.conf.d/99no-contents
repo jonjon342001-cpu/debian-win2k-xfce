@@ -1,0 +1,3 @@
+Acquire::IndexTargets::deb::Contents-deb "false";
+Acquire::IndexTargets::deb::Contents-udeb "false";
+Acquire::IndexTargets::deb-src::Contents-deb "false";
