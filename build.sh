@@ -13,6 +13,8 @@ lb config \
   --distribution bookworm \
   --debian-installer live \
   --binary-images iso-hybrid \
+  --security false \
+  --updates false \
   --iso-application "Debian Windows 2000 Clone" \
   --iso-publisher "Win2k Linux Project"
 
