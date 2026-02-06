@@ -4,4 +4,3 @@ git clone https://github.com/grassmunk/Chicago95.git /opt/Chicago95
 cd /opt/Chicago95
 ./install.sh
 
-chmod +x config/hooks/normal/010-chicago95.chroot
